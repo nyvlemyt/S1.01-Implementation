@@ -1,6 +1,6 @@
 # University_project-SAE
 
-S1.01_Implementation         >> python 
+S1.01_Implementation         >> python \n
 S1.02_Comparaison_algo       >> python 
 S1.03_Installation_poste     >> linux 
 S1.04_Creation_BD            >> sql
