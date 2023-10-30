@@ -1,0 +1,12 @@
+UE11	Réaliser un développement d'application
+UE12	Optimiser des applications informatiques
+UE13	Administrer des systèmes informatiques communicants
+UE14	Gérer des données de l'information
+UE15	Conduire un projet
+UE16	Travailler dans une équipe informatique
+UE21	Réaliser un développement d'application
+UE22	Optimiser des applications informatiques
+UE23	Administrer des systèmes informatiques communicants
+UE24	Gérer des données de l'information
+UE25	Conduire un projet
+UE26	Travailler dans une équipe informatique
