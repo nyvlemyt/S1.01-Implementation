@@ -1,0 +1,36 @@
+	Nous avons tout fait, que ce soit pour la phase 1, 2 et 3 et dans notre SAE tout fonctionne à merveille. Les classes ont été réparties entre nous deux de manière efficace. Johann a réalisé la classe Chapeaux, tandis que Melvyn a ajouté sa spécificité pour aider à créer le toit de la maison dans la classe Maison. Il a également ajouté un constructeur utile pour la classe Maison, ainsi que pour créer une étoile à partir d'un Quadrilateres. En parlant de la classe Maison, c'est Melvyn qui l'a réalisée et il a inclus une méthode creerPorte permettant de créer une porte au centre du quadrilatère qui représente le corps de la maison. Ensuite, Johann a réalisé la classe Triangles, puis il a principalement travaillé sur la classe Etoile, tandis que Melvyn l'a rendue plus robuste en ajoutant des conditions dans le constructeur par copie pour gérer les objets de type Etoiles et Quadrilateres. Enfin, les classes FormesComposees et Quadrilateres, ont été réalisée par Melvyn dans notre package Main. 
+
+	Pour la troisième phase, nous avons décidé de diviser les tests par classe dans notre projet. Nous avons commencé par la classe TestArdoise pour afficher toutes les formes correctement, puis nous avons créé les classes de test pour chaque classe, en commençant par la classe Chapeaux réalisée par Melvyn. Ensuite, Melvyn a réalisé la classe de test pour Etoile, et Johann a réalisé les classes de tests pour Maison, Quadrilateres et Triangles. Melvyn est repassé derrière pour quelques modification. Pour clôturer cette SAE nous avons ajouté un package contenant les exceptions pour chaque formes. Dans les classes tests nous passons par tous les chemins des constructeurs et des méthodes que nous avons implémentés. Pour nos classes tests, les coverages ne sont pas à 100 %, cela vient du faite, qu'il y a des try-catch/exceptions toutes bêtes comme celles présentes dans les setters qui attendent, par exemple des PointPlan, et dans lesquels nous ne mettons pas de PointPlan. Nous ne nous trouvons pas ça très intéressant mais vous pouvez remarquer que dans certaines classes tests nous avons intentionnellement créé des exceptions ce type (testQuadrilateres). 
+
+	Lors du projet, nous avons travaillé ensemble en restant en appel sur discord, lorsque que quelqu'un était bloqué, l'autre l'aidé en regardant son stream et nous avons remarquablement réussi à communiquer et se soutenir lors des moments compliqués. Par ailleurs nous avons eu quelques problèmes avec Github et son utilisation mais nous nous sommes débrouillés pour régler ces problèmes.
+
+Nous avons eu des problème de versionnages, le rendu final n'était pas notre fin de projet, c'était 2versions précèdentes. Nous avons réctifié le problème lorsque que nous nous sommes rendu compte de l'erreur. 
+
+Package Main :  
+
+	Quadrilateres : Faite entièrement par Melvyn
+
+	Triangles : faite entièrement par Johann (ajout toString + execption par Melvyn)
+
+	Chapeaux : faite entièrment par Melvyn 
+
+	FormesComposees et Maison :  faites par Melvyn 
+
+	Etoile : entièrement par Johann sauf les exceptions et public Etoile(String nom, Object o) (ce constructeur verifie si l'object est une instance d'Etoile ou de Quadrilateres pour creer une Etoile à partir de celui là). 
+
+Package Test : 
+
+	TestArdoise, TestMaison, TestQuadrilatères , TestTriangles : réalisées par Johann
+
+	TestChapeaux, TestEtoile : réalisées par Melvyn 
+
+	Méthode Test : attendreSecondes : réalisée par Melvyn 
+
+	Try-catch / exception : réalisés par Melvyn avec aide de Johann en vocal/stream sur Discord
+
+Package Execption : réalisé par Melvyn
+
+UML et compte Rendu : réalisés par Johann. 
+
+Check up fait à chaque fois par les deux, pour bien comprendre et éviter les erreurs bêtes . Il y a eu des petites modifications faites par chacun sur toutes les classes et méthodes, mais on ne sait plus exactemenent qui a fait quoi comme modificication 
+
