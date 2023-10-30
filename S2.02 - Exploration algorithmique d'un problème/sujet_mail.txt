@@ -1,0 +1,14 @@
+Chers étudiants 
+
+Dans le cadre de la SAE202 "Exploration algorithmique d'un problème" nous vous proposons de nous aventurer dans l'univers des fractales. 
+Précisément, l'objectif de cette SAE sera d'aboutir, par un code en python, à la représentation de l'ensemble de Mandelbrot.
+
+A cette fin, un notebook jupyter vous guidant vers ce résultat se trouve en pièce jointe. Il s'autosuffit et contient cours et code pour vous mener à bon port.
+
+La première séance de cette SAE est en présentiel (présence obligatoire) la semaine du 29 mai. Pour cette séance, nous vous demandons de préparer les deux premières parties du notebook (math et dessin en python).
+
+La séance de la semaine du 5 juin est quant à elle facultative. Votre enseignant sera présent pour répondre à vos questions ou vous éclairer sur les zones d'ombre du notebook dans le code ou dans les concepts mathématiques qui y sont exposés.
+
+Finalement, pour évaluer votre SAE, un contrôle sur table est prévu le jeudi 15 juin.
+
+A bientôt
